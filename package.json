@@ -1,0 +1,29 @@
+{
+  "name": "resolve-keypath",
+  "version": "1.0.0",
+  "description": "Resolve the value of an object according the keypath",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimohq/resolve-keypath.git"
+  },
+  "keywords": [
+    "resolve"
+  ],
+  "author": "Zihua Li <lizihua@shimo.im>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shimohq/resolve-keypath/issues"
+  },
+  "homepage": "https://github.com/shimohq/resolve-keypath#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
