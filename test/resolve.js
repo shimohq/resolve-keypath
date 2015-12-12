@@ -1,8 +1,8 @@
 'use strict';
 
 var expect = require('chai').expect;
-var getResolver = require('..');
-var resolve = getResolver.resolve;
+var resolve = require('..');
+var getResolver = resolve.getResolver;
 
 describe('resolve', function () {
   it('should return the correct value', function () {

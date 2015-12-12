@@ -22,5 +22,5 @@ function getResolver(object, separator) {
   };
 }
 
-exports = module.exports = getResolver;
-exports.resolve = resolve;
+exports = module.exports = resolve;
+exports.resolver = getResolver;
