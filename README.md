@@ -17,10 +17,10 @@ resolve({ a: { b: 1 } }, 'a.b') // 1
 resolve({ a: { b: 1 } }, 'a/b', '/') // 1
 resolve(null, 'a') // null
 
-// Use `getResolver` if you want to cache the result per object:
-var getResolver = resolve.getResolver;
+// Use `resolver` if you want to cache the result per object:
+var resolver = resolve.resolver;
 
-var myResolver = getResolver({ a: { b: 1 }}, '/');
+var myResolver = resolver({ a: { b: 1 }}, '/');
 myResolver('a/b') // 1
 ```
 
