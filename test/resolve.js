@@ -22,6 +22,10 @@ describe('resolve', function () {
         }
       }
     }, 'a.b.d')).to.eql(4);
+
+    expect(resolve({ a: 1 }, 'a.b')).to.eql(undefined);
+    expect(resolve({ a: 1 }, 'b')).to.eql(undefined);
+    expect(resolve(null, 'a.b')).to.eql(undefined);
   });
 
   it('should support custom separator', function () {

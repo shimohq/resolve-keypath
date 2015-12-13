@@ -1,6 +1,6 @@
 {
   "name": "resolve-keypath",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Resolve the value of an object according the keypath",
   "main": "index.js",
   "directories": {

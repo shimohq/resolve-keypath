@@ -15,6 +15,7 @@ var resolve = require('resolve-keypath');
 
 resolve({ a: { b: 1 } }, 'a.b') // 1
 resolve({ a: { b: 1 } }, 'a/b', '/') // 1
+resolve(null, 'a') // null
 
 // Use `getResolver` if you want to cache the result per object:
 var getResolver = resolve.getResolver;
